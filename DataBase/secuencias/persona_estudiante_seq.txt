@@ -1,8 +1,0 @@
--- SEQUENCE: public.persona_estudiante_seq
-
--- DROP SEQUENCE public.persona_estudiante_seq;
-
-CREATE SEQUENCE public.persona_estudiante_seq;
-
-ALTER SEQUENCE public.persona_estudiante_seq
-    OWNER TO postgres;

@@ -1,8 +1,0 @@
--- SEQUENCE: public.oferta_seq
-
--- DROP SEQUENCE public.oferta_seq;
-
-CREATE SEQUENCE public.oferta_seq;
-
-ALTER SEQUENCE public.oferta_seq
-    OWNER TO postgres;

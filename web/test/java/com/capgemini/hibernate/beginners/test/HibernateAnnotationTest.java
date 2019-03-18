@@ -58,11 +58,11 @@ public class HibernateAnnotationTest {
             logger.info("Creating values to insert...");
             UserAnnotation[] values = new UserAnnotation[]{
 
-                    new UserAnnotation ("Homer_", "123", "h@gmail","homer","simpson","ns","masculino","213"),
-                    new UserAnnotation ("Marge_", "1234", "m@gamil","marge","simpson","ns","femenino","312"),
-                    new UserAnnotation ("Bart_", "12345", "b@gmail","bart","simpson","ns","masculino","321"),
-                    new UserAnnotation ("Lisa_", "123456", "l@gmail","lisa","simpson","ns","femenino","43"),
-                    new UserAnnotation ("Maggie_", "1234567", "ma@gmail","maggie","simpson","ns","femenino","544")
+                    new UserAnnotation ("Homer01", "123", "homer@gmail","homer","simpson","ns","masculino","213"),
+                    new UserAnnotation ("Marge02", "1234", "marge@gamil","marge","simpson","ns","femenino","312"),
+                    new UserAnnotation ("Bart02", "12345", "bart@gmail","bart","simpson","ns","masculino","321"),
+                    new UserAnnotation ("Lisa03", "123456", "lisa@gmail","lisa","simpson","ns","femenino","43"),
+                    new UserAnnotation ("Maggie04", "1234567", "maggie@gmail","maggie","simpson","ns","femenino","544")
             };
 
             // Save the data.
@@ -176,7 +176,4 @@ public class HibernateAnnotationTest {
             Assertions.assertFalse (Boolean.TRUE, "Problems executing the test.");
         }
     }
-
-
-
 }

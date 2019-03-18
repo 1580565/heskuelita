@@ -121,7 +121,7 @@
                         </div>
                         <br>
                         <div>
-                            <a href="sesion.html">Si ya esta registrado presione aqui</a>
+                            <a href="index.jsp">Si ya esta registrado presione aqui</a>
                         </div>
                     </form>
                 </div>

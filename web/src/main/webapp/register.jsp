@@ -111,7 +111,7 @@
                             <label class="label">Documento</label>
                             <div class="rs-select2 js-select-simple select--no-search">
 
-                                    <input class="input--style-4" type="text" name="document">
+                                    <input class="input--style-4" type="number" name="document">
                                 <div class="select-dropdown"></div>
                             </div>
                         </div>

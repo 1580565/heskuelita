@@ -60,7 +60,7 @@ public class UserDaoHibernet implements IUserDao {
 
             session = sessionFactory.openSession ();
 
-            logger.info (String.format ("Finding companies by id and country [%s, %s] using criteria object.", filter1, filter2));
+            logger.info (String.format ("Finding users by us_nom and us_pw [%s, %s] using criteria object.", filter1, filter2));
 
             Criterion criterion1 = Restrictions.like ("us_nom", filter1);
 
@@ -81,7 +81,7 @@ public class UserDaoHibernet implements IUserDao {
 
             }
 
-            logger.info (String.format ("Companies by id and country [%s, %s] using criteria object executed!", filter1, filter2));
+            logger.info (String.format ("users by us_nom and us_pw [%s, %s] using criteria object executed!", filter1, filter2));
 
         } catch (Exception ex) {
 
